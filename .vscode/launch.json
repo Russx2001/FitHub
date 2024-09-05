@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-SocialMedia<fithub>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.paf.fithub.SocialMedia",
+            "projectName": "fithub",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

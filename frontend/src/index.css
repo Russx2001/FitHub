@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Red Hat Display', sans-serif;
+  /* Change the font-family */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url("./assets/fithub_bg.jpg");
+  background-repeat: repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.user-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.user-profile-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.meal-card {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: rgba(204, 204, 204, 0.9);
+  border-radius: 20px;
+  border: 1px solid #929191;
+}
+
+.meal-profile-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.meal-comment-profile-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.workout-card {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: rgba(204, 204, 204, 0.9);
+  border-radius: 20px;
+  border: 1px solid #929191;
+}
+
+.workout-profile-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.workout-comment-profile-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.post-card {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: rgba(204, 204, 204, 0.9);
+  border-radius: 20px;
+  border: 1px solid #929191;
+}
+
+.post-profile-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.post-comment-profile-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.comment-div {
+  background-color: rgb(219, 218, 218);
+}
+
+.react-icons:hover {
+  color: #ed9472;
+  transform: scale(1.1);
+}
+
+.newusercard {
+  transition: transform 0.2s ease;
+  background-color: rgba(204, 204, 204, 0.9);
+}
+
+.newusercard:hover {
+  transform: scale(1.1);
+}
+
+.post-card {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: rgba(204, 204, 204, 0.9);
+  border-radius: 20px;
+  border: 1px solid #929191;
+}
+
+.create-card {
+  background-color: rgba(204, 204, 204, 0.9);
+  border-radius: 20px;
+  border: 1px solid #929191;
+}
+
+.tab-profile {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 1px solid #929191;
+  background-color: rgba(204, 204, 204, 0.9);
+}
+
+.input-width-register {
+  width: 400px;
+}
+
+.input-width-login {
+  width: 370px;
+}
+
+.orange-text {
+  color: rgb(223, 145, 0);
+}
+
+.status-card {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: rgba(204, 204, 204, 0.9);
+  border-radius: 20px;
+  border: 1px solid #929191;
+}
+
+.status-profile-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.status-comment-profile-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+/* status view as rows */
+
+.status-container.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.status-item {
+  flex: 1;
+  margin-right: 10px;
+  /* Adjust margin as needed */
+  border: 1px solid #888888;
+  /* Add border */
+  padding: 10px;
+  /* Add padding for spacing */
+  border-radius: 10px;
+  background-color: #ed9472;
+  box-shadow: 0 5px 48px rgb(128, 128, 128);
+  outline: none;
+}
+
+/* begin - Status item colors */
+
+.bg-color-1 {
+  background-color: #f8c600;
+}
+
+.bg-color-2 {
+  background-color: #1ABC9C;
+}
+
+.bg-color-3 {
+  background-color: #2C3E50;
+}
+
+.bg-color-4 {
+  background-color: #8E44AD;
+}
+
+/* End - Status item colors */
+
+.labelCategory {
+  margin-right: 10px;
+  margin-left: 5px;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
